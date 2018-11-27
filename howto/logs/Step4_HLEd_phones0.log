@@ -1,0 +1,125 @@
+HLEd -A -D -T 1 -l * -d ./interim_files/dict -i ./interim_files/phones0.mlf ./input_files/mkphones0.led ./interim_files/words.mlf 
+
+No HTK Configuration Parameters Set
+
+Editing file: sample1.lab
+   11 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample2.lab
+   6 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample3.lab
+   8 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample4.lab
+   7 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample5.lab
+   12 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample6.lab
+   11 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample7.lab
+   12 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample8.lab
+   6 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample9.lab
+   21 adds; 5 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample10.lab
+   33 adds; 5 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample11.lab
+   30 adds; 5 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample12.lab
+   34 adds; 6 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample13.lab
+   35 adds; 6 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample14.lab
+   28 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample15.lab
+   25 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample16.lab
+   30 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample17.lab
+   27 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample18.lab
+   22 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample19.lab
+   26 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample20.lab
+   28 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample21.lab
+   18 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample22.lab
+   35 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample23.lab
+   22 adds; 4 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample24.lab
+   37 adds; 6 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample25.lab
+   20 adds; 3 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample26.lab
+   22 adds; 3 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample27.lab
+   20 adds; 3 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample28.lab
+   18 adds; 3 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample29.lab
+   23 adds; 3 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample30.lab
+   25 adds; 5 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample31.lab
+   31 adds; 6 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample32.lab
+   51 adds; 9 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample33.lab
+   44 adds; 8 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample34.lab
+   38 adds; 9 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample35.lab
+   26 adds; 5 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample36.lab
+   33 adds; 6 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample37.lab
+   43 adds; 5 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample38.lab
+   54 adds; 7 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample39.lab
+   50 adds; 7 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample40.lab
+   59 adds; 8 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample41.lab
+   8 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample42.lab
+   8 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample43.lab
+   12 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample44.lab
+   11 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample45.lab
+   9 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample46.lab
+   12 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample47.lab
+   11 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample48.lab
+   8 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample49.lab
+   8 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample50.lab
+   7 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample51.lab
+   11 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample52.lab
+   9 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample53.lab
+   12 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample54.lab
+   11 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample55.lab
+   6 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample56.lab
+   8 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample57.lab
+   7 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample58.lab
+   12 adds; 2 deletes; 0 replaces; 0 changes; 0 merges
+Editing file: sample59.lab
+   9 adds; 1 deletes; 0 replaces; 0 changes; 0 merges
+
+No HTK Configuration Parameters Set
+

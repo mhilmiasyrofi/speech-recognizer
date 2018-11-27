@@ -1,0 +1,208 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C ./input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 46 physical / 46 logical HMMs
+Label file will be used to align each file
+Aligning File: ../train/mfcc/sample1.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence GESER KIRI silence  ==  [155 frames] -61.0418 [Ac=-9461.5 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence JEDA silence  ==  [58 frames] -63.0426 [Ac=-3656.5 LM=0.0] (Act=6.8)
+Aligning File: ../train/mfcc/sample3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence KELUAR silence  ==  [90 frames] -62.4865 [Ac=-5623.8 LM=0.0] (Act=9.4)
+Aligning File: ../train/mfcc/sample4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence MULAI silence  ==  [90 frames] -58.5183 [Ac=-5266.7 LM=0.0] (Act=8.6)
+Aligning File: ../train/mfcc/sample5.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence PUTAR KANAN silence  ==  [147 frames] -59.8049 [Ac=-8791.3 LM=0.0] (Act=13.4)
+Aligning File: ../train/mfcc/sample6.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence PUTAR KIRI silence  ==  [138 frames] -61.0945 [Ac=-8431.0 LM=0.0] (Act=10.0)
+Aligning File: ../train/mfcc/sample7.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence GESER KANAN silence  ==  [133 frames] -62.7389 [Ac=-8344.3 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample8.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence JEDA silence  ==  [69 frames] -63.0555 [Ac=-4350.8 LM=0.0] (Act=7.1)
+Aligning File: ../train/mfcc/sample9.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence MEASURE LEISURE AND LEISURE MEASURE silence  ==  [434 frames] -58.0044 [Ac=-25173.9 LM=0.0] (Act=9.5)
+Aligning File: ../train/mfcc/sample10.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence COMPLAIN CHAMPLAIN AIRPLANE ELAINE EXPLAIN silence  ==  [602 frames] -55.9590 [Ac=-33687.3 LM=0.0] (Act=7.6)
+Aligning File: ../train/mfcc/sample11.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence BOOKENDS KENNEL KENNETH KENYA WEEKEND silence  ==  [570 frames] -55.2934 [Ac=-31517.3 LM=0.0] (Act=11.6)
+Aligning File: ../train/mfcc/sample12.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence BELT BELOW BEND AEROBIC DASHBOARD DATABASE silence  ==  [639 frames] -55.4736 [Ac=-35447.6 LM=0.0] (Act=8.3)
+Aligning File: ../train/mfcc/sample13.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence GATEWAY GATORADE GAZEBO AFGHAN AGAINST AGATHA silence  ==  [713 frames] -55.6930 [Ac=-39709.1 LM=0.0] (Act=9.2)
+Aligning File: ../train/mfcc/sample14.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence ABALON ABDOMINALS BODY ABOLISH silence  ==  [511 frames] -56.3254 [Ac=-28782.3 LM=0.0] (Act=8.4)
+Aligning File: ../train/mfcc/sample15.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence ABOUNDING ABOUT ACCOUNT ALLENTOWN silence  ==  [479 frames] -56.4967 [Ac=-27061.9 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample16.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence ACHIEVE ACTUAL ACUPUNCTURE ADVENTURE silence  ==  [528 frames] -55.0310 [Ac=-29056.4 LM=0.0] (Act=8.1)
+Aligning File: ../train/mfcc/sample17.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence ALGORITHM ALTHOUGH ALTOGETHER ANOTHER silence  ==  [447 frames] -55.2735 [Ac=-24707.3 LM=0.0] (Act=8.1)
+Aligning File: ../train/mfcc/sample18.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence BATTLE BEATLE LITTLE METAL silence  ==  [421 frames] -55.6377 [Ac=-23423.5 LM=0.0] (Act=10.8)
+Aligning File: ../train/mfcc/sample19.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence BITTEN BLATANT BRIGHTEN BRITAIN silence  ==  [427 frames] -54.6477 [Ac=-23334.6 LM=0.0] (Act=9.7)
+Aligning File: ../train/mfcc/sample20.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence BROOKHAVEN HOOD BROUHAHA BULLHEADS silence  ==  [472 frames] -59.0028 [Ac=-27849.3 LM=0.0] (Act=10.0)
+Aligning File: ../train/mfcc/sample21.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence BUSBOYS CHOICE COILS COIN silence  ==  [491 frames] -58.5972 [Ac=-28771.2 LM=0.0] (Act=9.8)
+Aligning File: ../train/mfcc/sample22.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence COLLECTION COLORATION COMBINATION COMMERCIAL silence  ==  [534 frames] -59.7297 [Ac=-31895.6 LM=0.0] (Act=7.8)
+Aligning File: ../train/mfcc/sample23.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence MIDDLE NEEDLE POODLE SADDLE silence  ==  [413 frames] -58.0396 [Ac=-23970.4 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample24.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence ALRIGHT ARTHRITIS BRIGHT COPYRIGHT CRITERIA RIGHT silence  ==  [694 frames] -58.4670 [Ac=-40576.1 LM=0.0] (Act=9.5)
+Aligning File: ../train/mfcc/sample25.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence COUPLE CRADLE CRUMBLE silence  ==  [267 frames] -57.2532 [Ac=-15286.6 LM=0.0] (Act=9.5)
+Aligning File: ../train/mfcc/sample26.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence CUBA CUBE CUMULATIVE silence  ==  [317 frames] -57.7752 [Ac=-18314.7 LM=0.0] (Act=9.4)
+Aligning File: ../train/mfcc/sample27.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence CURING CURLING CYCLING silence  ==  [316 frames] -57.7196 [Ac=-18239.4 LM=0.0] (Act=6.5)
+Aligning File: ../train/mfcc/sample28.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence CYNTHIA DANFORTH DEPTH silence  ==  [376 frames] -55.6483 [Ac=-20923.8 LM=0.0] (Act=8.9)
+Aligning File: ../train/mfcc/sample29.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence DIGEST DIGITAL DILIGENT silence  ==  [380 frames] -56.5286 [Ac=-21480.9 LM=0.0] (Act=10.6)
+Aligning File: ../train/mfcc/sample30.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence AMNESIA ASIA AVERSION BEIGE BEIJING silence  ==  [577 frames] -55.3950 [Ac=-31962.9 LM=0.0] (Act=10.0)
+Aligning File: ../train/mfcc/sample31.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence HELP HELLO HELMET HELPLESS AHEAD HELP silence  ==  [626 frames] -55.4110 [Ac=-34687.3 LM=0.0] (Act=10.8)
+Aligning File: ../train/mfcc/sample32.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence VOXFORGE HOME READ LISTEN FORUMS DEVELOPER ABOUT HOWTO TUTORIAL silence  ==  [926 frames] -57.7516 [Ac=-53477.9 LM=0.0] (Act=10.9)
+Aligning File: ../train/mfcc/sample33.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence RHYTHMBOX PLAY START NEXT SKIP FORWARD PREVIOUS BACK silence  ==  [875 frames] -59.0845 [Ac=-51698.9 LM=0.0] (Act=10.9)
+Aligning File: ../train/mfcc/sample34.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence MUSIC SHOW WHO ABOUT INFORMATION UP LOUDER DOWN LOWER silence  ==  [964 frames] -57.5285 [Ac=-55457.5 LM=0.0] (Act=12.8)
+Aligning File: ../train/mfcc/sample35.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence PLAYER SOFTER SILENCE STOP QUIET silence  ==  [546 frames] -57.3775 [Ac=-31328.1 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample36.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence COMPUTER WEATHER EMAIL VOLUME LOUDER SOFTER silence  ==  [725 frames] -55.0541 [Ac=-39914.2 LM=0.0] (Act=9.8)
+Aligning File: ../train/mfcc/sample37.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence COMPUTERIZE AMPUTATE MINICOMPUTER PUMA'S PEWTER silence  ==  [662 frames] -57.3130 [Ac=-37941.2 LM=0.0] (Act=9.1)
+Aligning File: ../train/mfcc/sample38.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence ACUTE AMPUTATION BOOTERS CONTRIBUTOR'S ALOUETTE GIFTWARE GLADWELL silence  ==  [822 frames] -59.7216 [Ac=-49091.1 LM=0.0] (Act=10.7)
+Aligning File: ../train/mfcc/sample39.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence MAYWEATHER WHETHER WOODSTREAM ARTILLERYMAN CREMATION DAIRYMAID FEMALE silence  ==  [890 frames] -55.7808 [Ac=-49645.0 LM=0.0] (Act=8.4)
+Aligning File: ../train/mfcc/sample40.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ISHMAEL'S LANCEDALE LAVAL VOLATILE SCALIA SOLUBLE SUPERVALUE VALUATION silence  ==  [1069 frames] -57.9854 [Ac=-61986.4 LM=0.0] (Act=10.0)
+Aligning File: ../train/mfcc/sample41.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence KELUAR silence  ==  [105 frames] -60.3672 [Ac=-6338.6 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample42.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence LANJUT silence  ==  [53 frames] -66.3514 [Ac=-3516.6 LM=0.0] (Act=7.2)
+Aligning File: ../train/mfcc/sample43.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence PUTAR KANAN silence  ==  [179 frames] -61.9661 [Ac=-11091.9 LM=0.0] (Act=12.1)
+Aligning File: ../train/mfcc/sample44.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence PUTAR KIRI silence  ==  [119 frames] -61.7176 [Ac=-7344.4 LM=0.0] (Act=11.0)
+Aligning File: ../train/mfcc/sample45.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence SELESAI silence  ==  [76 frames] -62.1950 [Ac=-4726.8 LM=0.0] (Act=7.5)
+Aligning File: ../train/mfcc/sample46.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence GESER KANAN silence  ==  [127 frames] -63.0246 [Ac=-8004.1 LM=0.0] (Act=10.1)
+Aligning File: ../train/mfcc/sample47.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence GESER KIRI silence  ==  [127 frames] -63.6119 [Ac=-8078.7 LM=0.0] (Act=10.2)
+Aligning File: ../train/mfcc/sample48.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence KELUAR silence  ==  [114 frames] -59.9291 [Ac=-6831.9 LM=0.0] (Act=9.1)
+Aligning File: ../train/mfcc/sample49.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence LANJUT silence  ==  [79 frames] -62.6442 [Ac=-4948.9 LM=0.0] (Act=8.1)
+Aligning File: ../train/mfcc/sample50.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence MULAI silence  ==  [240 frames] -55.6432 [Ac=-13354.4 LM=0.0] (Act=8.4)
+Aligning File: ../train/mfcc/sample51.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence PUTAR KIRI silence  ==  [127 frames] -61.5044 [Ac=-7811.1 LM=0.0] (Act=11.1)
+Aligning File: ../train/mfcc/sample52.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence SELESAI silence  ==  [127 frames] -61.2747 [Ac=-7781.9 LM=0.0] (Act=6.0)
+Aligning File: ../train/mfcc/sample53.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence GESER KANAN silence  ==  [82 frames] -64.9778 [Ac=-5328.2 LM=0.0] (Act=9.2)
+Aligning File: ../train/mfcc/sample54.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence GESER KIRI silence  ==  [94 frames] -67.3000 [Ac=-6326.2 LM=0.0] (Act=9.4)
+Aligning File: ../train/mfcc/sample55.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence JEDA silence  ==  [40 frames] -65.1319 [Ac=-2605.3 LM=0.0] (Act=7.3)
+Aligning File: ../train/mfcc/sample56.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence LANJUT silence  ==  [46 frames] -72.8561 [Ac=-3351.4 LM=0.0] (Act=7.5)
+Aligning File: ../train/mfcc/sample57.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence MULAI silence  ==  [53 frames] -60.9480 [Ac=-3230.2 LM=0.0] (Act=9.7)
+Aligning File: ../train/mfcc/sample58.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence PUTAR KANAN silence  ==  [75 frames] -65.1827 [Ac=-4888.7 LM=0.0] (Act=12.5)
+Aligning File: ../train/mfcc/sample59.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence SELESAI silence  ==  [53 frames] -63.8322 [Ac=-3383.1 LM=0.0] (Act=10.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

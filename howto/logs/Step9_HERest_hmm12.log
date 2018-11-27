@@ -1,0 +1,1307 @@
+HERest -A -D -T 1 -C ./input_files/config -I ./interim_files/wintri.mlf -t 250.0 150.0 3000.0 -s ./interim_files/stats -S ./interim_files/train.scp -H ./interim_files/hmm11/macros -H ./interim_files/hmm11/hmmdefs -M ./interim_files/hmm12 ./interim_files/triphones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+HERest  ML Updating: Transitions Means Variances 
+
+ System is SHARED
+687 Logical/687 Physical Models Loaded, VecSize=25
+2 MMF input files
+Pruning-On[250.0 150.0 3000.0]
+ Processing Data: sample1.mfc; Label sample1.lab
+ Utterance prob per frame = -5.818293e+01
+ Processing Data: sample2.mfc; Label sample2.lab
+ Utterance prob per frame = -5.751442e+01
+ Processing Data: sample3.mfc; Label sample3.lab
+ Utterance prob per frame = -5.848094e+01
+ Processing Data: sample4.mfc; Label sample4.lab
+ Utterance prob per frame = -5.518085e+01
+ Processing Data: sample5.mfc; Label sample5.lab
+ Utterance prob per frame = -5.660128e+01
+ Processing Data: sample6.mfc; Label sample6.lab
+ Utterance prob per frame = -5.790611e+01
+ Processing Data: sample7.mfc; Label sample7.lab
+ Utterance prob per frame = -5.712742e+01
+ Processing Data: sample8.mfc; Label sample8.lab
+ Utterance prob per frame = -5.816096e+01
+ Processing Data: sample9.mfc; Label sample9.lab
+ Utterance prob per frame = -5.556354e+01
+ Processing Data: sample10.mfc; Label sample10.lab
+ Utterance prob per frame = -5.223809e+01
+ Processing Data: sample11.mfc; Label sample11.lab
+ Utterance prob per frame = -5.272265e+01
+ Processing Data: sample12.mfc; Label sample12.lab
+ Utterance prob per frame = -5.479246e+01
+ Processing Data: sample13.mfc; Label sample13.lab
+ Utterance prob per frame = -5.539963e+01
+ Processing Data: sample14.mfc; Label sample14.lab
+ Utterance prob per frame = -5.568284e+01
+ Processing Data: sample15.mfc; Label sample15.lab
+ Utterance prob per frame = -5.515806e+01
+ Processing Data: sample16.mfc; Label sample16.lab
+ Utterance prob per frame = -5.476746e+01
+ Processing Data: sample17.mfc; Label sample17.lab
+ Utterance prob per frame = -5.482430e+01
+ Processing Data: sample18.mfc; Label sample18.lab
+ Utterance prob per frame = -5.377845e+01
+ Processing Data: sample19.mfc; Label sample19.lab
+ Utterance prob per frame = -5.265546e+01
+ Processing Data: sample20.mfc; Label sample20.lab
+ Utterance prob per frame = -5.823521e+01
+ Processing Data: sample21.mfc; Label sample21.lab
+ Utterance prob per frame = -5.798128e+01
+ Processing Data: sample22.mfc; Label sample22.lab
+ Utterance prob per frame = -5.797782e+01
+ Processing Data: sample23.mfc; Label sample23.lab
+ Utterance prob per frame = -5.607935e+01
+ Processing Data: sample24.mfc; Label sample24.lab
+ Utterance prob per frame = -5.664321e+01
+ Processing Data: sample25.mfc; Label sample25.lab
+ Utterance prob per frame = -5.461136e+01
+ Processing Data: sample26.mfc; Label sample26.lab
+ Utterance prob per frame = -5.562760e+01
+ Processing Data: sample27.mfc; Label sample27.lab
+ Utterance prob per frame = -5.681970e+01
+ Processing Data: sample28.mfc; Label sample28.lab
+ Utterance prob per frame = -5.558529e+01
+ Processing Data: sample29.mfc; Label sample29.lab
+ Utterance prob per frame = -5.469210e+01
+ Processing Data: sample30.mfc; Label sample30.lab
+ Utterance prob per frame = -5.510501e+01
+ Processing Data: sample31.mfc; Label sample31.lab
+ Utterance prob per frame = -5.318658e+01
+ Processing Data: sample32.mfc; Label sample32.lab
+ Utterance prob per frame = -5.722322e+01
+ Processing Data: sample33.mfc; Label sample33.lab
+ Utterance prob per frame = -5.838842e+01
+ Processing Data: sample34.mfc; Label sample34.lab
+ Utterance prob per frame = -5.676101e+01
+ Processing Data: sample35.mfc; Label sample35.lab
+ Utterance prob per frame = -5.667268e+01
+ Processing Data: sample36.mfc; Label sample36.lab
+ Utterance prob per frame = -5.228622e+01
+ Processing Data: sample37.mfc; Label sample37.lab
+ Utterance prob per frame = -5.519654e+01
+ Processing Data: sample38.mfc; Label sample38.lab
+ Utterance prob per frame = -5.846084e+01
+ Processing Data: sample39.mfc; Label sample39.lab
+ Utterance prob per frame = -5.380242e+01
+ Processing Data: sample40.mfc; Label sample40.lab
+ Utterance prob per frame = -5.640104e+01
+ Processing Data: sample41.mfc; Label sample41.lab
+ Utterance prob per frame = -5.328723e+01
+ Processing Data: sample42.mfc; Label sample42.lab
+ Utterance prob per frame = -5.510325e+01
+ Processing Data: sample43.mfc; Label sample43.lab
+ Utterance prob per frame = -5.553276e+01
+ Processing Data: sample44.mfc; Label sample44.lab
+ Utterance prob per frame = -5.761915e+01
+ Processing Data: sample45.mfc; Label sample45.lab
+ Utterance prob per frame = -5.592307e+01
+ Processing Data: sample46.mfc; Label sample46.lab
+ Utterance prob per frame = -5.959607e+01
+ Processing Data: sample47.mfc; Label sample47.lab
+ Utterance prob per frame = -6.013496e+01
+ Processing Data: sample48.mfc; Label sample48.lab
+ Utterance prob per frame = -5.681051e+01
+ Processing Data: sample49.mfc; Label sample49.lab
+ Utterance prob per frame = -5.553727e+01
+ Processing Data: sample50.mfc; Label sample50.lab
+ Utterance prob per frame = -5.281581e+01
+ Processing Data: sample51.mfc; Label sample51.lab
+ Utterance prob per frame = -5.831421e+01
+ Processing Data: sample52.mfc; Label sample52.lab
+ Utterance prob per frame = -5.670937e+01
+ Processing Data: sample53.mfc; Label sample53.lab
+ Utterance prob per frame = -5.971556e+01
+ Processing Data: sample54.mfc; Label sample54.lab
+ Utterance prob per frame = -6.281578e+01
+ Processing Data: sample55.mfc; Label sample55.lab
+ Utterance prob per frame = -5.857870e+01
+ Processing Data: sample56.mfc; Label sample56.lab
+ Utterance prob per frame = -6.128778e+01
+ Processing Data: sample57.mfc; Label sample57.lab
+ Utterance prob per frame = -5.621996e+01
+ Processing Data: sample58.mfc; Label sample58.lab
+ Utterance prob per frame = -5.920146e+01
+ Processing Data: sample59.mfc; Label sample59.lab
+ Utterance prob per frame = -5.690346e+01
+ WARNING [-2331]  UpdateModels: ao-r+ah[1] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-r+iy[2] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-r+jh[3] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t+uw[4] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-w+ah[5] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-w+eh[6] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-w+eh[7] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-eh+p[10] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-uw[11] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-d+ah[13] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aw-n[15] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ey+sh[17] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-ih+f[18] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ay-z[21] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-k+ch[22] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-f+ao[23] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-f+er[24] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-iy+m[25] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-b+aa[26] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-b+ah[27] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: f-g+ae[28] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l+ae[29] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l+ah[30] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l+aw[31] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l+eh[32] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l+ih[33] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ey+s[34] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l+ow[35] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ch-ah+w[36] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ey[37] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ow[38] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-ae+n[39] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-ae+t[40] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-dh+er[41] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-s+f[42] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-s+p[43] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-s+t[44] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ch-iy+v[45] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: jh-ah+n[46] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: jh-ah+t[47] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-ah+z[48] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-s+ah[49] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ey+l[50] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ey+r[51] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ey+t[52] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-uw+hh[53] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: th-ah[55] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-ih+p[56] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-ay+z[57] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-eh+zh[58] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-er+ih[59] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-m+ae[60] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-d+z[62] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d+ae[63] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d+aw[64] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d+ay[65] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d+eh[66] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d+ey[67] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-g+eh[69] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-l+ah[70] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-aa+l[71] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-aa+m[72] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-aa+p[73] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-l+ih[74] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-l+iy[75] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-l+ih[76] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-t+ao[77] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-er[79] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-iy[80] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-uh+k[81] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-t+ah[82] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-t+er[83] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ih+d[84] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ih+n[85] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ey+er[88] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-w+er[90] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-eh+k[91] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-ah+th[92] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-ah+n[95] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-ah+p[96] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-b+oy[97] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-g+er[98] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-uw+d[100] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-zh+ah[101] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-ch+er[102] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-zh+ih[103] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-y+uw[104] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-w+eh[105] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-w+ey[106] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ae+n[107] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-eh+k[108] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-d+iy[109] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-s+d[110] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-s+t[111] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-t+r[112] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-l+ah[113] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ah+n[114] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ah+t[115] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ah+z[116] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-ng+k[117] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-l+ae[118] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-v+iy[119] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uh-r+ih[120] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-hh+eh[121] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m+ey[123] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m+ih[124] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-th+ah[125] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-ey+sh[126] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-p+ah[127] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-p+er[128] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: f-er+th[129] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aw-n+d[130] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aw-n+t[131] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ey+t[133] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-aw+n[134] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-ih+n[135] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-uw+t[136] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-er+sh[137] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-d+ah[139] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-eh+d[140] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-k+aa[141] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-k+ih[142] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-d+ah[143] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-n+ah[144] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-n+ch[145] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-n+ih[146] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-aa+f[147] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-aa+l[148] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-s+t[149] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-er+v[150] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-hh+aa[151] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-sh+b[152] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-m+ah[153] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-ae+d[154] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-hh+aa[155] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-ah+n[156] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v+ae[159] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-l+er[160] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-l+ey[161] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-oy+z[162] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-l+ih[163] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-ah+l[164] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-l+ow[165] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: zh-ah[167] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: th-r+ay[169] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-hh+ey[170] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v-eh+l[171] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v-eh+n[172] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v-iy+ah[173] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-er+z[174] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-ey+d[175] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-m+ah[176] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-dh+ah[177] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-t+aa[178] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-y+ah[179] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-er+ey[180] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-er+iy[181] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ch+oy[183] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ch-er[185] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n+eh[186] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-d+ah[187] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n+iy[188] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-l+dh[189] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-ah+l[190] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ey+t[191] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-v+ae[192] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-aw+t[193] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-y+ah[194] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-ay+k[195] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-ay+l[196] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-sh+m[197] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ay-k+ah[198] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-ih+th[199] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-r+ay[200] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-r+ih[201] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-iy+k[202] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-r+uh[203] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-r+uw[204] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-aa+hh[205] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ih+jh[206] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ih+ng[207] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-ah+b[208] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-ah+l[209] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-ah+t[210] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-y+ah[212] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uh-k+eh[213] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-iy+zh[214] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uh-k+hh[216] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: f+ao[217] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: f+iy[218] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ay-ah+t[219] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uh-d[220] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aw-t+uw[221] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w+eh[222] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w+iy[223] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w+uh[224] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-z+ey[225] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-d+ey[226] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ow+n[227] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-ey[228] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: z-ey+b[229] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-ch+iy[230] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ay-t+ah[232] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ay-t+ih[233] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sh+ae[234] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sh+ow[239] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+l[240] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sh-ow[242] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-dh+ow[243] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-z[245] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ow-er[247] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g+l[249] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ae+sh[250] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-b[251] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-m[252] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-t[253] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-r+iy[254] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k+w[260] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-s[262] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ay-l+ah[263] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-p[265] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-t[266] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sh-b+ao[268] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m+y[270] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-z[271] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-s[273] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-v+eh[275] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-jh+ah[276] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p+l[277] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p+r[278] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p+y[280] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-r+ay[281] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-m+y[282] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih+sh[283] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh+r[284] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-d[285] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-l[286] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-r[287] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-t[288] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aw-d+er[289] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-p+l[290] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-d[292] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-t[294] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-p+th[295] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-ow+b[296] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uh-l+hh[298] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s+k[300] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s+t[301] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-sh[303] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-th[304] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g+ae[305] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g+ah[306] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g+ey[307] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g+ih[308] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ih+k[311] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ih+l[312] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ih+t[313] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-n+iy[316] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-n+iy[317] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-aa+d[318] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-aa+k[319] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-aa+l[320] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-d[321] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-z[322] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-n+th[323] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ih+l[324] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ih+v[325] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-r+iy[326] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ae+k[327] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ae+t[328] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-b+aa[329] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-b+ah[330] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-b+ey[332] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-b+ow[333] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-zh+ah[334] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-aa+m[335] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ah+n[337] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ah+s[338] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-d[339] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-s[342] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-t[343] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-w+ay[344] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ae+n[345] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sh-ae+m[346] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-iy+t[347] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p+uw[348] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-er[349] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ao+r[351] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sh-ah+l[352] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-th[354] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-r+ih[356] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-r+iy[357] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: jh-eh+s[358] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-eh+n[360] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-ey+sh[361] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: zh-ah+n[362] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-g+ah[363] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-ey+d[364] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-aw+n[365] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-k+aw[369] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-p+iy[370] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: f-iy+m[371] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-ah+ng[372] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-l+ey[374] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-aw+n[375] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ih+s[376] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ih+t[377] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: f-t+er[378] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: f-t+w[379] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-f+ao[380] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-ah[382] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-p+l[383] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-uw[384] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-l+z[385] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-l+r[386] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-l+t[387] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-ey+t[388] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-t+r[389] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-ay+ah[390] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-uh+d[391] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-p+ah[392] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ay-jh+eh[393] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-p+er[394] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ae+d[395] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ae+n[396] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-eh+t[397] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-d+aa[398] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-b+d[399] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-r+d[400] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-r+m[401] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ao-r+w[402] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-t+w[403] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ah+n[404] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ah+p[405] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ah+s[406] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ah+t[407] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ah+v[408] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ah+w[409] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-er+l[410] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-d+v[411] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-d+w[412] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-t+ah[413] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-t+ey[414] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-t+ah[415] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-sh+ah[416] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-t+ih[417] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-f+g[418] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v-er+zh[419] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ey+sh[420] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-ah+l[421] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-uh+d[422] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-k+y[423] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-ih+b[424] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-ih+t[425] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-l+g[427] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-l+y[428] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s-uw+p[429] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-t+ah[430] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-m+n[431] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-r+ay[433] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-n+f[434] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-n+s[435] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-r+ow[436] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-iy+d[437] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-iy+k[438] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ow-m[439] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ow-n[440] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey+zh[443] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-l+ah[444] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-l+eh[445] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-l+er[446] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-ah+l[447] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-l+ih[448] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-l+ow[449] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ey+d[450] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-ey+w[452] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-er[453] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-uh+r[454] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-aw+d[455] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: oy-n[456] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: oy-s[457] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: oy-z[458] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-zh[459] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ih+l[460] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ih+r[461] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ih+v[462] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-t+aw[463] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-uw+ey[465] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-ih+dh[466] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-iy+r[467] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-eh+d[468] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: th-iy+ah[470] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-aa+p[471] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-aa+r[472] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-ah+m[473] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ey+zh[474] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: sh-m+ey[475] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-iy+v[477] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-d+ah[478] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: oy-l+z[479] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh+ah[480] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh+aw[481] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh+ow[483] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh+uh[484] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh+uw[485] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v-aa+k[486] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ah+b[488] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ah+g[489] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ah+s[492] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-ah+dh[493] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-p+l[494] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-aa[495] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-k+y[496] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-uw[497] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-uw+b[498] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-uw+p[500] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: y-uw+z[502] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-l+z[503] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-t+ih[504] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-m+b[505] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-m+z[507] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-y+uh[508] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r+ay[510] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r+eh[511] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v-ae+l[512] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r+ih[513] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-eh+l[514] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-eh+r[515] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-eh+t[516] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-n+d[517] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-n+s[518] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-jh[521] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: v-ah+n[522] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-ao+r[523] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: p-l+ah[524] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-ch+ah[526] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-ch+er[527] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-d+z[528] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: z-ih+k[529] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-ey+v[530] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-s+b[531] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-y+ah[532] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-ay+jh[533] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ch-oy+s[535] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-y+uw[536] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ng-k+ch[537] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-d+ih[538] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: w-er+d[539] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-aw+n[540] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-k+s[541] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: zh-ih+ng[542] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-v+eh[543] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ow+er[544] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-l+m[545] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-l+t[547] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-m+er[548] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-r+th[549] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-z+ih[550] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-n+s[552] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-n+y[553] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-er+ay[554] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: t-er+ey[555] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-b+y[556] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-r+p[557] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-s+t[558] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-hh+eh[559] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-f+t[560] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-m+ah[561] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-k+ah[563] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-k+eh[564] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-k+sh[565] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ow-b+ih[566] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+aa[567] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+ae[568] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+ah[569] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+eh[570] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+ey[571] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+ih[572] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+iy[573] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+uh[574] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b+uw[575] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ih+jh[576] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ih+ng[577] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-ih+sh[578] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-k+s[579] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-oy+l[580] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-oy+n[581] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ah[583] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-th[584] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-ow[585] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-n+f[586] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-f+t[589] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s+ae[591] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s+ay[592] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-sh+ah[593] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s+ih[594] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: l-iy+ah[595] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: s+uw[596] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-ah+l[597] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-ah+s[598] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-v+aa[599] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-v+er[600] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ey-v+ah[601] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah+ch[602] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah+hh[603] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-uh+k[604] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-uh+l[605] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: g-eh+dh[606] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-k+s[607] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-l+y[608] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-m+b[611] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-p+l[612] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih+k[613] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih+l[614] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih+n[615] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-k[616] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-p[617] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-v[618] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-t+ah[619] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-t+ah[620] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-r+t[621] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-m+ey[622] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-r+ah[623] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-r+ay[624] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-r+ey[625] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k-r+iy[626] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: d-w+eh[627] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k+aa[628] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k+er[631] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: k+oy[632] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-n+ah[633] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-n+ey[634] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-zh+ah[635] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: n-th+iy[636] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa+l[638] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa+r[639] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-l[640] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: aa-p[641] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-uw+t[642] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae+b[643] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae+d[644] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae+f[645] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae+g[646] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae+k[647] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae+l[648] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-k[650] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-n[651] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ih-r+iy[652] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uw-b+ah[653] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: er-ey+sh[654] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-ih+dh[655] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ae-b+ah[656] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-ih+ng[657] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah+g[659] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah+k[660] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah+n[661] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah+p[662] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah+v[663] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-m[665] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-p[667] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-t[669] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: ah-z[670] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: eh-l+ah[671] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: hh-ow+m[672] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: dh-ah+m[673] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: dh-ow[675] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy+m[677] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-eh+l[678] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: b-eh+n[679] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-m[680] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: iy-v[681] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-th+r[682] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: r-iy+ah[683] copied: only 2 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: uh-d+s[685] copied: only 1 egs
+ in HERest
+ WARNING [-2331]  UpdateModels: m-eh+zh[687] copied: only 2 egs
+ in HERest
+Total 32 floored variance elements in 26 different mixes
+Saving hmm's to dir ./interim_files/hmm12
+Reestimation complete - average log prob per frame = -5.579620e+01
+     - total frames seen          = 2.150900e+04
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
